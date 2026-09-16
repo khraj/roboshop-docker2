@@ -4,7 +4,8 @@ services:
     container_name: mongodb
   catalogue:
     image: catalogu:v1
-    depends_on: mongodb
+    depends_on: 
+    - mongodb
     container_name: catalogue
 
 
