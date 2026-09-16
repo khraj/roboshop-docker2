@@ -1,11 +1,11 @@
 services:
   mongodb:
     image: mongodb:v1
-    
+
 
 networks:
   default:
     driver: bridge
     name: roboshop
-    external: false
+    external: true
 
